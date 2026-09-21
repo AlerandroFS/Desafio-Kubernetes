@@ -6,6 +6,12 @@ Este projeto implementa uma API (PostgREST) integrada a um banco de dados (Postg
 - **Ambiente:** WSL (Ubuntu)
 - **Cluster Local:** k3s / Kubernetes integrado
 
+## Como rodar na maquina
+```bash
+git clone [https://github.com/AlerandroFS/Desafio-Kubernetes.git](https://github.com/AlerandroFS/Desafio-Kubernetes.git
+cd Desafio-Kubernetes
+```
+
 ## Ordem de Aplicação dos Manifests
 Os manifests foram separados e numerados para garantir a ordem correta de dependências. Execute os comandos na seguinte ordem:
 
