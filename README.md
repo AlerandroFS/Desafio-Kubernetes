@@ -1,6 +1,6 @@
 # Desafio: Fundamentos de Kubernetes na Prática
 
-Este projeto implementa uma API (PostgREST) integrada a um banco de dados (PostgreSQL) dentro de um cluster Kubernetes local, com configuração externalizada e persistência de dados comprovada.
+Este projeto implementa uma API (PostgREST) integrada a um banco de dados (PostgreSQL) dentro de um cluster Kubernetes local.
 
 ## Ferramenta de Cluster Utilizada
 - **Ambiente:** WSL (Ubuntu)
@@ -8,7 +8,7 @@ Este projeto implementa uma API (PostgREST) integrada a um banco de dados (Postg
 
 ## Como rodar na maquina
 ```bash
-git clone [https://github.com/AlerandroFS/Desafio-Kubernetes.git](https://github.com/AlerandroFS/Desafio-Kubernetes.git
+git clone https://github.com/AlerandroFS/Desafio-Kubernetes.git
 cd Desafio-Kubernetes
 ```
 
