@@ -20,6 +20,7 @@ kubectl apply -f 01-namespace.yaml
 kubectl apply -f 02-config-secret.yaml
 kubectl apply -f 03-postgres.yaml
 kubectl apply -f 04-api.yaml
+kubectl apply -f 05-api-hpa.yaml
 ```
 
 ## Evidências
@@ -41,6 +42,12 @@ kubectl apply -f 04-api.yaml
 
 6. Dando o comando curl novamente pra ver se os dados sobreviveram mesmo (persistencia)
 ![teste persistencia](teste-persistencia.png)
+
+7. Testando o HPA antes da carga
+![hpa antes](hpa-antes.png)
+
+8. Testando o HPA depois da carga
+![hpa depois](hpa-teste.png)
 
 ## Como Testar
 Inserir dados no banco:
