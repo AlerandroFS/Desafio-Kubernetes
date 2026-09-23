@@ -44,7 +44,8 @@ kubectl apply -f 05-api-hpa.yaml
 ![teste persistencia](teste-persistencia.png)
 
 7. Testando o HPA antes da carga
-![hpa antes](hpa-antes.png)
+
+ ![hpa antes](hpa-antes.png)
 
 8. Testando o HPA depois da carga
 ![hpa depois](hpa-teste.png)
